@@ -1,0 +1,27 @@
+.navigation {
+    width: 100%;
+    text-align: center;
+}
+
+.navigation ul > li {
+    display: inline-block;
+    border-right: 1px solid #000000;
+    padding: 15px;
+}
+
+.navigation ul > li:first-child {
+    border-left: 1px solid #000000;
+    margin: 0;
+}
+
+a.nav-nav {
+    text-decoration: none;
+    color: #000000;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.navigation ul > li:hover {
+    border-bottom: 2px solid #ff1344;
+    background: #faffdd;
+}
