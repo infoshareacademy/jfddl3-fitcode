@@ -4,3 +4,38 @@
     width: auto;
     border-radius: 200px;
 }
+.baner
+{
+    background: url(img/Photo.jpeg) no-repeat;
+    text-align: center;
+    font-size: 80px;
+    height: 900px;
+    width: 100%;
+    padding: 80px;
+    color:#ffffff;
+    font-family: 'Lora', serif;
+    font-size: 60px;
+
+}
+
+a.button
+{
+    text-decoration: none;
+    padding: 20px;
+    border-radius:100px;
+    border-bottom: solid darkgreen;
+    color:#ffffff;
+    height: 200px;
+    width: 200px;
+    background: green;
+}
+
+a.button:hover
+{
+    color:black;
+}
+
+h2
+{
+    font-size: 90px;
+}
