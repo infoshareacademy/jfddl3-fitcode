@@ -1,0 +1,36 @@
+.foot-footer {
+    text-align: center;
+}
+
+.foot-footer p {
+    font-size: 12px;
+    margin: 0;
+    text-align: center;
+    width: 100%;
+    background: #000000;
+    color: #ffffff;
+    padding: 4px 0;
+    /* display: none; */
+}
+
+.space {
+    height:500px;
+}
+
+.foot-socials {
+    height: 25px;
+    margin: 3px 0;
+}
+
+.foot-gplay {
+    height: 25px;
+    margin-top: 3px;
+}
+
+.foot-gplay a {
+    text-decoration: none;
+}
+
+.foot-gplay img {
+    height: 25px;
+}
