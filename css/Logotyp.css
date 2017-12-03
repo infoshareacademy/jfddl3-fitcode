@@ -1,11 +1,23 @@
 body{
-    font-family: Arial;
+    font-family: 'Lato', Arial, Helvetica, SansSerif;
     font-size: 16px;
     margin: 0;
     padding: 0;
-    color: #323e4f;
-    background:#888;
+    color: #888;
+    background:#ecf0f1;
 }
+
+.logo{
+    background: #e74c3c;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.logo img{
+    max-width: 300px;
+    height:auto;
+}
+
 .container{
     max-width: 1000px;
     margin: 0 auto;
