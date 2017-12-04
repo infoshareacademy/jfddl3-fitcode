@@ -1,9 +1,7 @@
-$(document).ready(function menu(){
-    $('.nav-hamburger').click(function() {
-        $('.navigation').toggleClass('appears').slideToggle(300);
-    });
+$(document).ready(function(){
 
     $('.nav-hamburger').click(function() {
+        $('.navigation').slideToggle(300);
         $(this).toggleClass('transform');
     });
 });
