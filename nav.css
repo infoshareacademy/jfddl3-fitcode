@@ -1,7 +1,7 @@
 nav {
     width: 100%;
     position: relative;
-    height: 40px;
+    height: 2.6em;
     background: #37332f;
     opacity: 0.8;
 }
@@ -14,11 +14,19 @@ nav {
     background: #37332f;
 }
 
+
 .navigation ul {
     padding: 0;
     margin: 0;
     list-style-type: none;
 }
+
+ /* @media screen and (min-width: 640px) {
+    .navigation ul > li {
+        display: inline-block;
+    }
+}
+*/
 
 .navigation ul > li {
     text-transform: uppercase;
@@ -53,10 +61,16 @@ nav {
 
 
 .nav-hamburger {
-    width: 40px;
+    width: 1.5em;
     position: absolute;
-    right: 5px;
+    right: 1.5em;
     color: #ffffff;
+}
+
+@media screen and (min-width: 640px) {
+    .nav-hamburger {
+        display: none;
+    }
 }
 
 .appears {
