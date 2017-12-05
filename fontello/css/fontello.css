@@ -58,22 +58,22 @@
 .icon-instagram:before { 
 	content: '\f16d'; 
 	margin: 0;
-	font-size: 25px;
-	color: #bc2a8d
+	font-size: 2.8em;
+	color: #6BD83A;
 } /* '' */
 
 .icon-twitter-squared:before { 
 	content: '\f304'; 
 	margin: 0;
-	font-size: 25px;
-	color: #55acee;
+	font-size: 2.8em;
+	color: #6BD83A;
 } /* '' */
 
 .icon-facebook-squared:before { 
 	content: '\f308'; 
 	margin: 0;
-	font-size: 25px;
-	color: #3b5998;
+	font-size: 2.8em;
+	color: #6BD83A;
 } /* '' */
 
 
