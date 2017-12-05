@@ -107,7 +107,7 @@ nav {
 
 @media screen and (min-width: 641px) {
     .appears {
-        display: block;
+        display: block !important;
     }
 }
 
