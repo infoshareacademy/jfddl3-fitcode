@@ -1,5 +1,42 @@
-.fetures{
-
+.fc-features{
 
 }
 
+
+.fc-features-box{
+    text-align:center;
+}
+
+.fc-features-box > .fc-features-icon{
+    font-size:3em;
+    color:#6BD83A;
+}
+
+.fc-features-box > h5{
+    font-size:1.8em;
+}
+
+
+
+
+/*---------------------------------*/
+.fc-section-title {
+
+}
+
+.fc-section-title h2 {
+    text-align: center;
+    padding:110px 0 20px 0;
+}
+
+.fc-section-title h3 {
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+
+
+
+
+
+.
