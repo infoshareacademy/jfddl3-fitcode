@@ -1,8 +1,8 @@
 
 .button {
-    margin: 12px;
+    margin: 0px;
     display: inline-block;
-    width: 100px;
+    width: 150px;
     padding: 12px;
     border: 1px solid #77aaaa;
     font-weight: bold;
@@ -56,4 +56,8 @@
 }
 .article-newsletter{
     font-family: Lato;
+}
+
+.newsletter-background{
+    background: #ECF3F5;
 }
