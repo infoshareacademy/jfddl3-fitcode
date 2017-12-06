@@ -1,5 +1,5 @@
 .fc-features{
-
+    background: #fff;
 }
 
 
@@ -8,16 +8,15 @@
 }
 
 .fc-features-box > .fc-features-icon{
-    font-size:3em;
+    font-size:4.5em;
     color:#6BD83A;
+    padding: 0 0 20px 0;
 }
 
 .fc-features-box > h5{
     font-size:1.8em;
+    padding: 0 0 10px 0;
 }
-
-
-
 
 /*---------------------------------*/
 .fc-section-title {
