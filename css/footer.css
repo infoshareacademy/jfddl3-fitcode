@@ -43,3 +43,17 @@
     transform: translate(-50%, 90%);
     display: none;
 }
+
+.content-1 {
+    text-align: center;
+}
+
+.content-2 p {
+    margin: 2em 0 3em;
+}
+
+.content-2 img {
+    margin-bottom: 3em;
+    width: 100%;
+    border-radius: 8em;
+}
