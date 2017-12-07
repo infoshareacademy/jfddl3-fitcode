@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="css/features.css">
     <title>FitCode</title>
 
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/newsletter.css" rel="stylesheet">
@@ -24,11 +27,28 @@
 
 <header>
     <nav>
-         <!--strona glowna itp....   WOJTEK -->
+
+        <div class="logo">
+            <a href="#"><img src="img/logo-fitcode.png" alt="logo"></a>
+        </div>
+
+        <div class="navigation appears">
+            <ul>
+                <li><a href="#" class="nav-nav">start</a></li>
+                <li><a href="#" class="nav-nav">co to</a></li>
+                <li><a href="#" class="nav-nav">premiera</a></li>
+                <li><a href="#" class="nav-nav">szczegóły</a></li>
+                <li><a href="#" class="nav-nav">ekipa</a></li>
+            </ul>
+        </div>
+
+        <div class="nav-hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+
     </nav>
-    <div class="logo"> <!-- NATALIA -->
-    </div>
-    <h1>Tytul </h1>
 
 </header>
 
@@ -94,6 +114,7 @@
     </div>
 </section>
 
+<section>
 
 <section class="newsletter-background">
     <div class="newsletter">
@@ -156,10 +177,7 @@
                 </div>
             </div>
 
-        </div>
-    </div>
 </section>
-
 
 <section>
 
@@ -202,6 +220,12 @@
     </div>
 
 </footer>
+
+<!--- JS --->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/nav.js"></script>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
