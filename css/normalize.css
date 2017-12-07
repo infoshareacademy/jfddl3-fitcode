@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 /*! normalize.css v6.0.0 | MIT License | github.com/necolas/normalize.css */
+=======
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+>>>>>>> develop
 
 /* Document
    ========================================================================== */
@@ -10,15 +14,32 @@
  */
 
 html {
+<<<<<<< HEAD
     line-height: 1.15; /* 1 */
     -ms-text-size-adjust: 100%; /* 2 */
     -webkit-text-size-adjust: 100%; /* 2 */
+=======
+  line-height: 1.15; /* 1 */
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+>>>>>>> develop
 }
 
 /* Sections
    ========================================================================== */
 
 /**
+<<<<<<< HEAD
+=======
+ * Remove the margin in all browsers (opinionated).
+ */
+
+body {
+  margin: 0;
+}
+
+/**
+>>>>>>> develop
  * Add the correct display in IE 9-.
  */
 
@@ -28,7 +49,11 @@ footer,
 header,
 nav,
 section {
+<<<<<<< HEAD
     display: block;
+=======
+  display: block;
+>>>>>>> develop
 }
 
 /**
@@ -37,8 +62,13 @@ section {
  */
 
 h1 {
+<<<<<<< HEAD
     font-size: 2em;
     margin: 0.67em 0;
+=======
+  font-size: 2em;
+  margin: 0.67em 0;
+>>>>>>> develop
 }
 
 /* Grouping content
@@ -52,7 +82,11 @@ h1 {
 figcaption,
 figure,
 main { /* 1 */
+<<<<<<< HEAD
     display: block;
+=======
+  display: block;
+>>>>>>> develop
 }
 
 /**
@@ -60,7 +94,11 @@ main { /* 1 */
  */
 
 figure {
+<<<<<<< HEAD
     margin: 1em 40px;
+=======
+  margin: 1em 40px;
+>>>>>>> develop
 }
 
 /**
@@ -69,9 +107,15 @@ figure {
  */
 
 hr {
+<<<<<<< HEAD
     box-sizing: content-box; /* 1 */
     height: 0; /* 1 */
     overflow: visible; /* 2 */
+=======
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -80,8 +124,13 @@ hr {
  */
 
 pre {
+<<<<<<< HEAD
     font-family: monospace, monospace; /* 1 */
     font-size: 1em; /* 2 */
+=======
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+>>>>>>> develop
 }
 
 /* Text-level semantics
@@ -93,8 +142,13 @@ pre {
  */
 
 a {
+<<<<<<< HEAD
     background-color: transparent; /* 1 */
     -webkit-text-decoration-skip: objects; /* 2 */
+=======
+  background-color: transparent; /* 1 */
+  -webkit-text-decoration-skip: objects; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -103,9 +157,15 @@ a {
  */
 
 abbr[title] {
+<<<<<<< HEAD
     border-bottom: none; /* 1 */
     text-decoration: underline; /* 2 */
     text-decoration: underline dotted; /* 2 */
+=======
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -114,7 +174,11 @@ abbr[title] {
 
 b,
 strong {
+<<<<<<< HEAD
     font-weight: inherit;
+=======
+  font-weight: inherit;
+>>>>>>> develop
 }
 
 /**
@@ -123,7 +187,11 @@ strong {
 
 b,
 strong {
+<<<<<<< HEAD
     font-weight: bolder;
+=======
+  font-weight: bolder;
+>>>>>>> develop
 }
 
 /**
@@ -134,8 +202,13 @@ strong {
 code,
 kbd,
 samp {
+<<<<<<< HEAD
     font-family: monospace, monospace; /* 1 */
     font-size: 1em; /* 2 */
+=======
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -143,7 +216,11 @@ samp {
  */
 
 dfn {
+<<<<<<< HEAD
     font-style: italic;
+=======
+  font-style: italic;
+>>>>>>> develop
 }
 
 /**
@@ -151,8 +228,13 @@ dfn {
  */
 
 mark {
+<<<<<<< HEAD
     background-color: #ff0;
     color: #000;
+=======
+  background-color: #ff0;
+  color: #000;
+>>>>>>> develop
 }
 
 /**
@@ -160,7 +242,11 @@ mark {
  */
 
 small {
+<<<<<<< HEAD
     font-size: 80%;
+=======
+  font-size: 80%;
+>>>>>>> develop
 }
 
 /**
@@ -170,6 +256,7 @@ small {
 
 sub,
 sup {
+<<<<<<< HEAD
     font-size: 75%;
     line-height: 0;
     position: relative;
@@ -182,6 +269,20 @@ sub {
 
 sup {
     top: -0.5em;
+=======
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+>>>>>>> develop
 }
 
 /* Embedded content
@@ -193,7 +294,11 @@ sup {
 
 audio,
 video {
+<<<<<<< HEAD
     display: inline-block;
+=======
+  display: inline-block;
+>>>>>>> develop
 }
 
 /**
@@ -201,8 +306,13 @@ video {
  */
 
 audio:not([controls]) {
+<<<<<<< HEAD
     display: none;
     height: 0;
+=======
+  display: none;
+  height: 0;
+>>>>>>> develop
 }
 
 /**
@@ -210,7 +320,11 @@ audio:not([controls]) {
  */
 
 img {
+<<<<<<< HEAD
     border-style: none;
+=======
+  border-style: none;
+>>>>>>> develop
 }
 
 /**
@@ -218,14 +332,23 @@ img {
  */
 
 svg:not(:root) {
+<<<<<<< HEAD
     overflow: hidden;
+=======
+  overflow: hidden;
+>>>>>>> develop
 }
 
 /* Forms
    ========================================================================== */
 
 /**
+<<<<<<< HEAD
  * Remove the margin in Firefox and Safari.
+=======
+ * 1. Change the font styles in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+>>>>>>> develop
  */
 
 button,
@@ -233,7 +356,14 @@ input,
 optgroup,
 select,
 textarea {
+<<<<<<< HEAD
     margin: 0;
+=======
+  font-family: sans-serif; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -243,7 +373,11 @@ textarea {
 
 button,
 input { /* 1 */
+<<<<<<< HEAD
     overflow: visible;
+=======
+  overflow: visible;
+>>>>>>> develop
 }
 
 /**
@@ -253,7 +387,11 @@ input { /* 1 */
 
 button,
 select { /* 1 */
+<<<<<<< HEAD
     text-transform: none;
+=======
+  text-transform: none;
+>>>>>>> develop
 }
 
 /**
@@ -266,7 +404,11 @@ button,
 html [type="button"], /* 1 */
 [type="reset"],
 [type="submit"] {
+<<<<<<< HEAD
     -webkit-appearance: button; /* 2 */
+=======
+  -webkit-appearance: button; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -277,8 +419,13 @@ button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
+<<<<<<< HEAD
     border-style: none;
     padding: 0;
+=======
+  border-style: none;
+  padding: 0;
+>>>>>>> develop
 }
 
 /**
@@ -289,7 +436,19 @@ button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
+<<<<<<< HEAD
     outline: 1px dotted ButtonText;
+=======
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+>>>>>>> develop
 }
 
 /**
@@ -300,12 +459,21 @@ button:-moz-focusring,
  */
 
 legend {
+<<<<<<< HEAD
     box-sizing: border-box; /* 1 */
     color: inherit; /* 2 */
     display: table; /* 1 */
     max-width: 100%; /* 1 */
     padding: 0; /* 3 */
     white-space: normal; /* 1 */
+=======
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+>>>>>>> develop
 }
 
 /**
@@ -314,8 +482,13 @@ legend {
  */
 
 progress {
+<<<<<<< HEAD
     display: inline-block; /* 1 */
     vertical-align: baseline; /* 2 */
+=======
+  display: inline-block; /* 1 */
+  vertical-align: baseline; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -323,7 +496,11 @@ progress {
  */
 
 textarea {
+<<<<<<< HEAD
     overflow: auto;
+=======
+  overflow: auto;
+>>>>>>> develop
 }
 
 /**
@@ -333,8 +510,13 @@ textarea {
 
 [type="checkbox"],
 [type="radio"] {
+<<<<<<< HEAD
     box-sizing: border-box; /* 1 */
     padding: 0; /* 2 */
+=======
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -343,7 +525,11 @@ textarea {
 
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
+<<<<<<< HEAD
     height: auto;
+=======
+  height: auto;
+>>>>>>> develop
 }
 
 /**
@@ -352,8 +538,13 @@ textarea {
  */
 
 [type="search"] {
+<<<<<<< HEAD
     -webkit-appearance: textfield; /* 1 */
     outline-offset: -2px; /* 2 */
+=======
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+>>>>>>> develop
 }
 
 /**
@@ -362,7 +553,11 @@ textarea {
 
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
+<<<<<<< HEAD
     -webkit-appearance: none;
+=======
+  -webkit-appearance: none;
+>>>>>>> develop
 }
 
 /**
@@ -371,8 +566,13 @@ textarea {
  */
 
 ::-webkit-file-upload-button {
+<<<<<<< HEAD
     -webkit-appearance: button; /* 1 */
     font: inherit; /* 2 */
+=======
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+>>>>>>> develop
 }
 
 /* Interactive
@@ -385,7 +585,11 @@ textarea {
 
 details, /* 1 */
 menu {
+<<<<<<< HEAD
     display: block;
+=======
+  display: block;
+>>>>>>> develop
 }
 
 /*
@@ -393,7 +597,11 @@ menu {
  */
 
 summary {
+<<<<<<< HEAD
     display: list-item;
+=======
+  display: list-item;
+>>>>>>> develop
 }
 
 /* Scripting
@@ -404,7 +612,11 @@ summary {
  */
 
 canvas {
+<<<<<<< HEAD
     display: inline-block;
+=======
+  display: inline-block;
+>>>>>>> develop
 }
 
 /**
@@ -412,7 +624,11 @@ canvas {
  */
 
 template {
+<<<<<<< HEAD
     display: none;
+=======
+  display: none;
+>>>>>>> develop
 }
 
 /* Hidden
@@ -423,5 +639,10 @@ template {
  */
 
 [hidden] {
+<<<<<<< HEAD
     display: none;
 }
+=======
+  display: none;
+}
+>>>>>>> develop
