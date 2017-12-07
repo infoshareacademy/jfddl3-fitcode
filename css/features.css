@@ -1,0 +1,64 @@
+.fc-features{
+    background: #fff;
+}
+
+
+.fc-features-box{
+    text-align:center;
+}
+
+.fc-features-box > .fc-features-icon{
+    font-size:4.5em;
+    color:#6BD83A;
+    padding: 0 0 20px 0;
+}
+
+.fc-features-box > h5{
+    font-family: 'Lora';
+    font-size:1.9em;
+    letter-spacing: 1px;
+    padding: 0 0 10px 0;
+}
+
+@media (max-width: 767px){
+    .fc-features-box {
+        padding: 0 0 20px 0;
+    }
+}
+
+/*---------------------------------*/
+.fc-section-title {
+
+}
+
+.fc-section-title h2 {
+    font-family: 'Lora', serif;
+    font-size: 3em;
+    letter-spacing: 3px;
+    text-align: center;
+    padding:80px 0 0 0;
+}
+
+.fc-section-title h3 {
+    font-size:1.3em;
+    letter-spacing: 3px;
+    text-align: center;
+    color:#777;
+    padding: 0 0 80px 0;
+}
+
+
+
+/*---------------- GLOBAL STYLES -----------------------*/
+
+body{
+    font-family: 'Lato', Helvetica, Arial, SansSerif, sans-serif;
+    font-size:1.4em;
+    line-height: 1.6em;
+    color: #222;
+}
+
+
+section{
+    padding-bottom: 80px;
+}
