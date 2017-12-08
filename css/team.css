@@ -6,18 +6,16 @@
 }
 
 
-.baner
-{
+.baner {
     background: url(../img/Photo.jpeg) no-repeat;
     text-align: center;
-    font-size: 60px;
-    height: 900px;
+    font-size: 4vw;
+    height: auto;
     padding: 80px;
-    color:#ffffff;
+    color: #ffffff;
     font-family: 'Lora', serif;
     background-size: cover;
-
-
+    height: auto;
 }
 
 
@@ -54,6 +52,18 @@ h2
     color: black;
 
 }
+.zdrowy
+{
+    color:green;
+}
+.fit
+{
+    color:yellow;
+}
+.fitcode
+{
+    color:blue;
+}
 h3 {
     font-size: 30px;
 }
@@ -67,3 +77,10 @@ h3 {
 {
     text-align: center;
 }
+ .glyphicon-thumbs-up
+ {
+     color:green;
+     font-size: 60px;
+     text-align:center;
+ }
+
