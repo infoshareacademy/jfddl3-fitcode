@@ -1,0 +1,88 @@
+.team-section1 img
+{
+    height:230px;
+    width: auto;
+    border-radius: 200px;
+}
+
+
+.baner {
+    background: url(../img/Photo.jpeg) no-repeat;
+    text-align: center;
+    font-size: 4vw;
+    height: auto;
+    padding: 80px;
+    color: #ffffff;
+    font-family: 'Lora', serif;
+    background-size: cover;
+    height: auto;
+}
+
+
+
+a.button
+{
+    text-decoration: none;
+    padding: 20px;
+    border-radius:20px;
+    border-bottom: solid darkgreen;
+    color:#ffffff;
+    width: 200px;
+    background: #64B435;
+}
+
+a.button:hover
+{
+    color:black;
+}
+
+.baner h2
+{
+
+}
+.team-section1
+{
+    background-color: #ECF3F5;
+
+}
+.team-section1 a
+{
+    text-decoration: none;
+    color: black;
+
+}
+.zdrowy
+{
+    color:green;
+}
+.fit
+{
+    color:yellow;
+}
+.fitcode
+{
+    color:blue;
+}
+.baner h3 {
+
+}
+.icon-user
+{
+    color:#6BD83A;
+}
+
+
+.about_us
+{
+    text-align: center;
+}
+ .glyphicon-thumbs-up
+ {
+     color:green;
+     font-size: 60px;
+     text-align:center;
+ }
+ .container-fluid{
+     padding-left: 0;
+     padding-right: 0;
+ }
