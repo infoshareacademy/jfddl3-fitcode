@@ -9,15 +9,35 @@
 .baner {
     background: url(../img/Photo.jpeg) no-repeat;
     text-align: center;
-    font-size: 4vw;
+    width:100%;
     height: auto;
-    padding: 80px;
+    padding: 220px 80px 220px 80px;
     color: #ffffff;
     font-family: 'Lora', serif;
     background-size: cover;
-    height: auto;
 }
 
+.baner h2{
+  font-size: 5vw;
+    text-shadow: 0 1px 16px rgba(0, 0, 0, 0.9);
+}
+
+.baner h3{
+    font-size: 3vw;
+    text-shadow: 0 1px 16px rgba(0, 0, 0, 0.9);
+}
+
+@media (max-width: 767px){
+    .baner{
+        padding: 80px;
+    }
+    .baner h2{
+        font-size: 10vw;
+    }
+    .baner h3{
+        display:none;
+    }
+}
 
 
 a.button
@@ -81,8 +101,4 @@ a.button:hover
      color:green;
      font-size: 60px;
      text-align:center;
- }
- .container-fluid{
-     padding-left: 0;
-     padding-right: 0;
  }
