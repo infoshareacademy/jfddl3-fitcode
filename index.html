@@ -77,57 +77,73 @@
 
 </main>
 
-<section class="fc-features"><!--dodatkowe info Waldek-->
-    <div class="container">
-        <div class="row">
-            <div class="col-xs12">
-                <div class="fc-section-title">
-                    <h2>Dlaczego FitCode?</h2>
-                    <h3>Nauczymy Cie jak zmienic zycie na bardzej zielone</h3>
+<section id="newsletter" class="newsletter-background">
+    <div class="newsletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <div class="fc-section-title">
+                        <h2>Dołącz juz dziś</h2>
+                        <h3>Zapisz sie do newslettera zdrowia.</h3>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="row">
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="fc-features-box">
-                    <span class="fc-features-icon glyphicon glyphicon-blackboard"></span>
-                    <h5>Nauka to Podstawa</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie neque vel cursus
-                        ullamcorper. Pellentesque bibendum turpis id lorem aliquam, non faucibus ante condimentum. Nulla
-                        ac
-                        malesuada augue. Ut rhoncus, neque rutrum consequat suscipit, elit purus euismod elit, at
-                        pellentesque
-                        ex massa vel nibh. Mauris euismod dictum dapibus.
-                    </p>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                    <p class="article-newsletter">Jezeli zależy Ci na najwyszej jakosci planowania diety, nowych
+                        trendach w dietetyce lub chcesz byc na
+                        bieżąco w eventach dotyczacych naszego zdrowego tematu, zapisz sie do naszego newslettera.
+                        Jezeli zależy Ci na najwyszej jakosci planowania diety, nowych trendach w dietetyce lub
+                        chcesz
+                        byc na
+                        bieżąco w eventach dotyczacych naszego zdrowego tematu, zapisz sie do naszego
+                        newslettera.</p>
+                    <p class="article-newsletter">Wystarczy ze wpiszesz swój adres e-mail, powiesz nam czy jestes
+                        kobietą czy mężczyzną, zaakceptujesz
+                        regulamin oraz klikniesz 'Dołącz'. Nie zwlekaj, zapisz sie już dziś. Wystarczy ze wpiszesz
+                        swój
+                        adres e-mail, powiesz nam czy jestes kobietą czy mężczyzną, zaakceptujesz
+                        regulamin oraz klikniesz 'Dołącz'. Nie zwlekaj, zapisz sie już dziś.</p>
                 </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="fc-features-box">
-                    <span class="fc-features-icon glyphicon  glyphicon-calendar"></span>
-                    <h5>Kalendarz Diety</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie neque vel cursus
-                        ullamcorper. Pellentesque bibendum turpis id lorem aliquam, non faucibus ante condimentum. Nulla
-                        ac
-                        malesuada augue. Ut rhoncus, neque rutrum consequat suscipit, elit purus euismod elit, at
-                        pellentesque
-                        ex massa vel nibh. Mauris euismod dictum dapibus.
-                    </p>
-                </div>
-            </div>
-            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
-                <div class="fc-features-box">
-                    <span class="fc-features-icon glyphicon glyphicon-shopping-cart"></span>
-                    <h5>Pomocnik Zakupowy</h5>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie neque vel cursus
-                        ullamcorper. Pellentesque bibendum turpis id lorem aliquam, non faucibus ante condimentum. Nulla
-                        ac
-                        malesuada augue. Ut rhoncus, neque rutrum consequat suscipit, elit purus euismod elit, at
-                        pellentesque
-                        ex massa vel nibh. Mauris euismod dictum dapibus.
-                    </p>
+                <div class="col-xs-12col-sm-6 col-md-6 col-lg-6">
+                    <form action="https://emaillabs-sender.herokuapp.com/" method="POST">
+                        <div>
+                            <label class="frame">
+                                <input type="text" name="emails[]" placeholder="e-mail">
+                                <input type="hidden" name="subject" value="Subject">
+                                <input type="hidden" name="message" value="tratata">
+                                <input type="hidden" name="from" value="tomaszbanach01@gmail.com">
+                                <input type="hidden" name="fromName" value="FitCode">
+                                <input type="hidden" name="redirect" value="http://fitcode.jfddl3.is-academy.pl/">
+                            </label>
+                        </div>
+                        <div class=" newsletter-radio">
+                            <div>
+                                <label>
+                                    <input type="radio" name="gender"> Kobieta
+                                </label>
+                            </div>
+                            <div>
+                                <label>
+                                    <input type="radio" name="gender"> Mezczyzna
+                                </label>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox"> Akceptuje regulamin
+                            </label>
+                        </div>
+                        <div>
+                            <label class="newsletter-button">
+                                <input class="button" type="submit" value="Dołącz">
+                            </label>
+                        </div>
+                    </form>
+                    <p class="article">Po zapisaniu do newslettera zostanie do Ciebie wyslana tylko jedna wiadomość
+                        o
+                        premierze.</p>
+                    <p class="article">Twoje dane sa w 100% bezpieczne.</p>
                 </div>
             </div>
         </div>
@@ -358,3 +374,4 @@
     <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
+
