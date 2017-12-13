@@ -1,88 +1,92 @@
-.team-section1 img
-{
-    height:230px;
+.team-section1 img {
+    height: 230px;
     width: auto;
     border-radius: 200px;
 }
 
-
 .baner {
     background: url(../img/Photo.jpeg) no-repeat;
     text-align: center;
-    font-size: 4vw;
+    width: 100%;
     height: auto;
-    padding: 80px;
+    padding: 220px 80px 220px 80px;
     color: #ffffff;
     font-family: 'Lora', serif;
     background-size: cover;
-    height: auto;
 }
 
+.baner h2 {
+    font-size: 5vw;
+    text-shadow: 0 1px 16px rgba(0, 0, 0, 0.9);
+}
 
+.baner h3 {
+    font-size: 3vw;
+    text-shadow: 0 1px 16px rgba(0, 0, 0, 0.9);
+}
 
-a.button
-{
+@media (max-width: 767px) {
+    .baner {
+        padding: 80px;
+    }
+
+    .baner h2 {
+        font-size: 10vw;
+    }
+
+    .baner h3 {
+        display: none;
+    }
+}
+
+a.button {
     text-decoration: none;
     padding: 20px;
-    border-radius:20px;
+    border-radius: 20px;
     border-bottom: solid darkgreen;
-    color:#ffffff;
+    color: #ffffff;
     width: 200px;
     background: #64B435;
 }
 
-a.button:hover
-{
-    color:black;
+a.button:hover {
+    color: black;
 }
 
-.baner h2
-{
-
-}
-.team-section1
-{
+.team-section1 {
     background-color: #ECF3F5;
 
 }
-.team-section1 a
-{
+
+.team-section1 a {
     text-decoration: none;
     color: black;
 
 }
-.zdrowy
-{
-    color:green;
-}
-.fit
-{
-    color:yellow;
-}
-.fitcode
-{
-    color:blue;
-}
-.baner h3 {
 
-}
-.icon-user
-{
-    color:#6BD83A;
+.icon-user {
+    color: #6BD83A;
 }
 
+.about_us {
+    text-align: center;
+}
 
-.about_us
+.glyphicon-thumbs-up {
+    color: green;
+    font-size: 60px;
+    text-align: center;
+}
+
+.middle-side
 {
     text-align: center;
 }
- .glyphicon-thumbs-up
- {
-     color:green;
-     font-size: 60px;
-     text-align:center;
- }
- .container-fluid{
-     padding-left: 0;
-     padding-right: 0;
- }
+.txt-height{
+    min-height: 3em;
+    max-height: 3em;
+}
+.team-icon{
+    color:green;
+    font-size: 40px;
+}
