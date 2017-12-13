@@ -57,3 +57,51 @@ body {
 section {
     padding-bottom: 80px;
 }
+
+/*------------------- back to top -----------------------------*/
+
+/* div as container to allow transition */
+#backToTop {
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    height: 60px;
+    width: 60px;
+}
+
+#backToTop a{
+    display:block;
+    min-width: 100%;
+    min-height: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
+    background-color: rgba(63, 238, 37, 0.5);
+    border-radius: 5px;
+    color:#fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+
+#backToTop a:hover {
+    display: block;
+    background-color: rgba(63, 238, 37, 0.9);
+}
+
+#backToTop a span {
+    display: block;
+    font-size: 30px;
+    line-height: 30px;
+    position:absolute;
+    top: 47%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+   #backToTop{
+       bottom:1%;
+       right: 1%;
+       height: 40px;
+       width: 40px;
+   }
+}
