@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e337465b-ec33-46fa-9b71-3c20d438cbf8" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/animation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/blog.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap-theme.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/features.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello-codes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello-embedded.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello-ie7-codes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/css/animation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/css/fontello-codes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/css/fontello-embedded.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/css/fontello-ie7-codes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/css/fontello-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/css/fontello.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/font/fontello.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/font/fontello.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/font/fontello.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/font/fontello.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/fontello/font/fontello.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/footer.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/newsletter.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/css/team.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontello.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontello.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontello.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontello.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/fontello.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/font/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/css/animation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/css/fontello-codes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/css/fontello-embedded.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/css/fontello-ie7-codes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/css/fontello-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/css/fontello.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/font/fontello.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/font/fontello.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/font/fontello.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/font/fontello.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fontello-a0e2c9f1/font/fontello.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/27764051.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/34034998.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/34035003.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/Photo.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/config.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/css/animation.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/css/fontello-codes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/css/fontello-embedded.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/css/fontello-ie7-codes.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/css/fontello-ie7.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/css/fontello.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/demo.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/font/fontello.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/font/fontello.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/font/fontello.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/font/fontello.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/fontello-a0e2c9f1/font/fontello.woff2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/google-play1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/logo-fitcode.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/wafr.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/zdj1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/zdj2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/nav.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/js/npm.js" afterPath="" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jfddl3-fitcode/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="502">
+              <caret line="394" column="0" lean-forward="true" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="js-tomek.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/jfddl3-fitcode/js/js-tomek.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>newsle</find>
+      <find>id=&quot;</find>
+      <find>id=&quot;new</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="feature/JFDDL3FIT-7-newsletter" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/newsletter.css" />
+        <option value="$PROJECT_DIR$/css/newsletter.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/jfddl3-fitcode/index.html" />
+        <option value="$PROJECT_DIR$/jfddl3-fitcode/js/js-tomek.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="58" />
+    <option name="y" value="24" />
+    <option name="width" value="1336" />
+    <option name="height" value="1039" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="FitCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FitCode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FitCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FitCode" type="462c0819:PsiDirectoryNode" />
+              <item name="jfddl3-fitcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="FitCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="FitCode" type="462c0819:PsiDirectoryNode" />
+              <item name="jfddl3-fitcode" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="Git.Branch.Popup.ShowAllRemotes" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/css" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e337465b-ec33-46fa-9b71-3c20d438cbf8" name="Default" comment="" />
+      <created>1511968557961</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1511968557961</updated>
+      <workItem from="1511968559155" duration="3266000" />
+      <workItem from="1512029057054" duration="121000" />
+      <workItem from="1512051417407" duration="5814000" />
+      <workItem from="1512128773338" duration="1097000" />
+      <workItem from="1512141552881" duration="3210000" />
+      <workItem from="1512385865156" duration="884000" />
+      <workItem from="1512393375290" duration="2002000" />
+      <workItem from="1512396453731" duration="6577000" />
+      <workItem from="1512460444082" duration="263000" />
+      <workItem from="1512461002136" duration="602000" />
+      <workItem from="1512482673323" duration="601000" />
+      <workItem from="1512483637274" duration="5731000" />
+      <workItem from="1512547516240" duration="49000" />
+      <workItem from="1512553102205" duration="57000" />
+      <workItem from="1512569323674" duration="4587000" />
+      <workItem from="1512633846919" duration="26000" />
+      <workItem from="1512655790492" duration="626000" />
+      <workItem from="1512720777803" duration="213000" />
+      <workItem from="1512742486150" duration="1675000" />
+      <workItem from="1512991723214" duration="151000" />
+      <workItem from="1512992648413" duration="35000" />
+      <workItem from="1513002388131" duration="2696000" />
+      <workItem from="1513065535999" duration="61000" />
+      <workItem from="1513065941250" duration="60000" />
+      <workItem from="1513067818553" duration="2123000" />
+      <workItem from="1513071090031" duration="880000" />
+      <workItem from="1513092659117" duration="815000" />
+      <workItem from="1513152628122" duration="52000" />
+      <workItem from="1513174098225" duration="4618000" />
+      <workItem from="1513240984320" duration="57000" />
+      <workItem from="1513262324471" duration="2675000" />
+    </task>
+    <task id="LOCAL-00001" summary="basic newsletter done. not styled already. request of check">
+      <created>1512143683473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1512143683473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51624000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="58" y="24" width="1336" height="1039" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21629855" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33516484" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="basic newsletter done. request of check" />
+    <MESSAGE value="basic newsletter done. not styled already. request of check" />
+    <option name="LAST_COMMIT_MESSAGE" value="basic newsletter done. not styled already. request of check" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/../HTML/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css" />
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="237" column="16" lean-forward="false" selection-start-line="237" selection-start-column="16" selection-end-line="237" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/newsletter.css" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/jfddl3-fitcode/js/js-tomek.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jfddl3-fitcode/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="502">
+          <caret line="394" column="0" lean-forward="true" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
