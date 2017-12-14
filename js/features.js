@@ -1,24 +1,20 @@
-$(document).ready(function(){
+$(document).ready(function () {
 
-    $("#backToTop").hide(); //hide
+    /*hide button on load*/
+    $("#backToTop").hide();
 
-    $(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 500) {
-                $('#backToTop').fadeIn();
-            } else {
-                $('#backToTop').fadeOut();
-
-            }
-            return false;
-        });
-
-        // scroll to top
-        $('#backToTop').click(function () {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 800);
-            return false;
-        });
+    /*fade in and out when high from top > 400px*/
+    $(document).scroll(function () {
+        $(this).scrollTop() > 400 ? $('#backToTop').fadeIn() : $('#backToTop').fadeOut();
+        return false;
     });
+
+    /*scroll to top on click*/
+    $('#backToTop').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+
 });

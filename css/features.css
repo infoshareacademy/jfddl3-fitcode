@@ -74,7 +74,6 @@ section {
     display:block;
     min-width: 100%;
     min-height: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.0);
     background-color: rgba(63, 238, 37, 0.5);
     border-radius: 5px;
     color:#fff;
@@ -92,7 +91,7 @@ section {
     font-size: 30px;
     line-height: 30px;
     position:absolute;
-    top: 47%;
+    top: 47%; /* vertical centered chevron*/
     left:50%;
     transform: translate(-50%, -50%);
 }
