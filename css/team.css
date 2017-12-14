@@ -5,11 +5,9 @@
 }
 
 .baner {
-    background: url(../img/Photo.jpeg) no-repeat;
+    background: no-repeat;
     text-align: center;
-    width: 100%;
-    height: auto;
-    padding: 220px 80px 220px 80px;
+    margin: 4em;
     color: #ffffff;
     font-family: 'Lora', serif;
     background-size: cover;
