@@ -34,6 +34,14 @@ $(document).ready(function() {
 
     EKIPA:        2947
      */
+    var a = $('.navigation ul li nth-child(2) a');
+    if (os.offsetTop > 726 && os.offsetTop < 1394) {
+
+        a.addClass('active');
+        else {
+            a.removeClass('active')
+        }
+    }
 
 });
 
