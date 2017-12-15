@@ -1,55 +1,27 @@
+.main-txt {
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+.main-txt h1 {
+    font-size: 5em;
+    margin-top: 1em;
+}
+
+.btn-default {
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+    background: #64B435;
+    margin-bottom: 3em;
+}
+
 .team-section1 img {
     height: 230px;
     width: auto;
     border-radius: 200px;
 }
 
-.baner {
-    background: no-repeat;
-    text-align: center;
-    margin: 4em;
-    color: #ffffff;
-    font-family: 'Lora', serif;
-    background-size: cover;
-}
-
-.baner h2 {
-    font-size: 5vw;
-    text-shadow: 0 1px 16px rgba(0, 0, 0, 0.9);
-}
-
-.baner h3 {
-    font-size: 3vw;
-    text-shadow: 0 1px 16px rgba(0, 0, 0, 0.9);
-}
-
-@media (max-width: 767px) {
-    .baner {
-        padding: 80px;
-    }
-
-    .baner h2 {
-        font-size: 10vw;
-    }
-
-    .baner h3 {
-        display: none;
-    }
-}
-
-a.button {
-    text-decoration: none;
-    padding: 20px;
-    border-radius: 20px;
-    border-bottom: solid darkgreen;
-    color: #ffffff;
-    width: 200px;
-    background: #64B435;
-}
-
-a.button:hover {
-    color: black;
-}
 
 .team-section1 {
     background-color: #ECF3F5;
