@@ -1,6 +1,6 @@
-$(document).ready(function(){
+$(document).ready(function() {
 
-    $('.nav-hamburger').on('click', function() {
+    $('.nav-hamburger').on('click', function () {
 
         $('.navigation').slideToggle(300);
         $(this).toggleClass('transform');
@@ -19,7 +19,21 @@ $(document).ready(function(){
         $(this).toggleClass('nav-nav-color');
     });
 
+    var os = $('.logo a img').offset();
+    console.log(os);
 
+    /*Offset TOP
+
+    START:        0
+
+    FITCODE:      726
+
+    PREMIERA:     1394
+
+    SZCZEGÓŁY:    2036
+
+    EKIPA:        2947
+     */
 
 });
 
