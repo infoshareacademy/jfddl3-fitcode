@@ -17,4 +17,15 @@ $(document).ready(function () {
         return false;
     });
 
+
+    /*animate team photos when scroll reach the view port*/
+    $(document).on('scroll', function() {
+        if($(this).scrollTop() >= ($('.team-section1').position().top) - 120){
+            $('.team-section1').addClass('team-anime');
+            //------wld_CL console.log('here');
+        }
+    })
+
+
 });
+
