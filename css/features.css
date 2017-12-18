@@ -128,12 +128,11 @@ section {
     height: 238px;
     width: 238px;
     border-radius: 200px;
-    background: #fefefe;
+    background: #fcfcfc;
     position:absolute;
     z-index: 9;
     left:50%;
     transform: translate(-50%,-4px);
-    filter: blur(15px);
 }
 
 
