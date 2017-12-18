@@ -31,6 +31,8 @@ window.addEventListener("load", function () {
             "dismiss": "Rozumiem",
             "link": "Dowiedz się więcej.",
             "href": "http://wszystkoociasteczkach.pl/"
+
         }
     })
 });
+
