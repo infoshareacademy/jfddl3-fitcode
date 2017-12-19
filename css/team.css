@@ -1,3 +1,12 @@
+.carousel-caption {
+    right: 0;
+    top:50%;
+    left:50%;
+    padding-top:0;
+    padding-bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
 .main-txt {
     text-align: center;
     font-family: 'Lora', serif;
@@ -5,16 +14,81 @@
 }
 .main-txt h1 {
     font-size: 5em;
-    margin-top: 1em;
+
 }
 
-.btn-default {
+
+
+.przycisk {
     text-decoration: none;
-    padding: 20px;
     border-radius: 20px;
-    background: #64B435;
-    margin-bottom: 3em;
+    height: 4em;
+
 }
+
+
+@media(max-width: 1500px) {
+    .main-txt h1 {
+        font-size: 5em;
+    }
+}
+@media(max-width: 1220px){
+    .main-txt h1 {
+        font-size: 4em;
+    }
+}
+@media(max-width: 1033px){
+    .main-txt h1 {
+        font-size: 3em;
+    }
+}
+
+@media(max-width: 900px){
+    .main-txt h1 {
+        font-size: 2.5em;
+
+    }
+}
+@media(max-width: 779px) {
+    .main-txt h1 {
+        font-size: 2.5em ;
+    }
+
+}
+
+@media(max-width: 664px) {
+
+    .main-txt h1 {
+        font-size: 2em;
+
+
+    }
+
+    /*.carousel{*/
+        /*top: 5.6em;*/
+    /*}*/
+    nav {
+        background: rgba(0, 0, 0, 1)
+    }
+
+}
+@media(max-width: 400px){
+    /*.carousel-caption{*/
+        /*top: 30vw;*/
+    /*}*/
+    .main-txt h1 {
+        font-size: 0;
+
+
+    }
+    nav {
+        background: rgba(0, 0, 0, 1)
+    }
+
+
+}
+
+
 
 .team-section1 img {
     height: 230px;
