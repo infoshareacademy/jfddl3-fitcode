@@ -11,6 +11,8 @@ function calcProc(x) {
     return Math.floor(x * 100 / env.viewPortWpx)
 }
 
+
+/*-----------------------------Definjujemy koszyk-------------------------------------*/
 function createPad() {
     var pad = {
         x: 40,
@@ -30,9 +32,10 @@ function createPad() {
     return pad
 }
 
+//tworzymy i inicjujemy koszyk
 var basket = createPad();
 basket.init();
-
+//poruszamy koszykiem
 $('.game-board').mousemove(function (e) {
     //console.log('page: ', e.pageX); //--------------------wld_CL
     var newX = Math.floor(calcProc(e.pageX) - basket.width / 2 - calcProc($('.game-board').offset().left));
@@ -48,6 +51,8 @@ $('.game-board').mousemove(function (e) {
     basket.movePad(basket.x);
 });
 
+
+/*-----------------------------Definjujemy pojedynczy klocek-------------------------------------*/
 function createPoint(id) {
     var point = {
         id: id,
@@ -70,15 +75,12 @@ function createPoint(id) {
 }
 
 
-var points = [];
 
+//tworzymy i inicjujemy pojedynczy klocek
 var point = createPoint(1)
 point.init()
-points.push(point)
 
-
-
-
+//tu na razie jeszcze nic. bedziemy to sprawszac czy klocek spadl za ekran lub zderzyl sie z koszykiem
 setInterval(function () {
 
     if ($('#'+point.id).css('top') > env.MaxPosY) {point.removePoint()}
