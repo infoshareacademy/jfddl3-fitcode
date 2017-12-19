@@ -1,24 +1,27 @@
 $(document).ready(function () {
 
     $('.nav-hamburger').on('click', function () {
-
         $('.navigation').slideToggle(300);
         $(this).toggleClass('transform');
-
     });
 
+    selectActiveSection()
+    $(document).on("scroll", selectActiveSection);
 
-    $(document).on("scroll", onScroll);
-
-    function onScroll(event) {
-        var scrollPos = $(document).scrollTop();
-        $('.navigation a').each(function () {
-            //var currLink = $(this);
+    function selectActiveSection(event) {
+        var distanceToTop = $(document).scrollTop();
+        var $navbarLinks = $('.navigation ul li a')
+        $navbarLinks.each(function () {
             var refElement = $($(this).attr("href"));
-            if (refElement.position().top <= scrollPos && refElement.position().top + refElement.height() > scrollPos) {
-
-                $('.navigation ul li a').removeClass("active");
-                $('.navigation ul li a').addClass("nav-nav-color");
+            var elementTopPosition = Math.floor(refElement.position().top)
+            var elementBottomPosition = Math.floor(refElement.position().top + refElement.height())
+            if (
+                elementTopPosition <= distanceToTop
+                &&
+                elementBottomPosition >= distanceToTop
+            ) {
+                $navbarLinks.removeClass("active");
+                $navbarLinks.addClass("nav-nav-color");
                 $(this).addClass("active");
                 $(this).removeClass("nav-nav-color");
             }
