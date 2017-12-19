@@ -18,6 +18,7 @@
     <link href="css/newsletter.css" rel="stylesheet">
     <link rel="stylesheet" href="css/features.css">
     <link href="css/team.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -31,16 +32,16 @@
     <nav>
 
         <div class="logo">
-            <a href="#"><img src="img/logo-fitcode.png" alt="logo"></a>
+            <a href="#start"><img src="img/logo-fitcode.png" alt="logo"></a>
         </div>
 
         <div class="navigation appears">
             <ul>
-                <li><a href="#" class="nav-nav">start</a></li>
-                <li><a href="#what" class="nav-nav">fitcode</a></li>
-                <li><a href="#newsletter" class="nav-nav">premiera</a></li>
-                <li><a href="#details" class="nav-nav">szczegóły</a></li>
-                <li><a href="#about" class="nav-nav">ekipa</a></li>
+                <li><a href="#start" class="nav-nav nav-nav-color">start</a></li>
+                <li><a href="#what" class="nav-nav nav-nav-color">fitcode</a></li>
+                <li><a href="#newsletter" class="nav-nav nav-nav-color">premiera</a></li>
+                <li><a href="#details" class="nav-nav nav-nav-color">szczegóły</a></li>
+                <li><a href="#about" class="nav-nav nav-nav-color">ekipa</a></li>
             </ul>
         </div>
 
@@ -54,7 +55,8 @@
 
 </header>
 
-<main>
+
+<main id='start'>
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -68,6 +70,7 @@
                     <div class="main-txt">
                     <h1>Bądź zdrowy, bądź FIT razem z FitCode</h1>
                         <button type="button" class="btn btn-lg btn-success ">Zacznij już teraz</button>
+
 
                     </div>
                 </div>
@@ -292,91 +295,66 @@
                 <div class="content">
                     <div class="fc-section-title">
                         <h2>Ekipa FitCode</h2>
-                        <h3> Lorem Ipsum</h3>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
                     </div>
                 </div>
             </div>
         </div>
         <div class="row middle-side">
+
+
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <div class="content">
-                    <a href="https://pl.linkedin.com" target="_blank" alt=" Natalia Pilewska"> <img
-                            src="img/34034998.jpeg"
-                            alt="Natalia Pilewska"></a>
-
-                    </i> <a href="https://www.facebook.com" target="_blank" alt=" Natalia Pilewska"><h3><i
-                        class="icon-user">Natalia
-                    Pilewska</i></h3></a>
+                    <div class="team-underimage"></div>
+                    <a href="https://pl.linkedin.com" target="_blank"><img src="img/34034998.jpeg" alt="Natalia Pilewska"></a>
+                    <a href="https://www.facebook.com" target="_blank"><h3><i class="icon-user">Natalia Pilewska</i></h3></a>
                     <div class="txt-height"><p>Specjalistka do spraw artystyczno-designerskich</p></div>
-                    <p><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official team-icon"
-                                                                              aria-hidden="true"></i></a>
-                        <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square team-icon"
-                                                                              aria-hidden="true"></i></a>
+                    <p class="team-icon"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official team-icon" aria-hidden="true"></i></a>
+                        <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square team-icon" aria-hidden="true"></i></a>
                     </p>
-                    </p>
-
-
                 </div>
             </div>
 
 
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <div class="content">
-                    <a href="https://pl.linkedin.com" target="_blank" alt=" Tomasz Banach"> <img src="img/27764051.jpeg"
-                                                                                                 alt="Tomasz Banach"></a>
-                    <a href="https://www.facebook.com" target="_blank" alt=" Tomasz Banach"><h3><i class="icon-user">Tomasz
-                        Banach</i></h3></a>
+                    <div class="team-underimage"></div>
+                    <a href="https://pl.linkedin.com" target="_blank"> <img src="img/27764051.jpeg" alt="Tomasz Banach"></a>
+                    <a href="https://www.facebook.com" target="_blank"><h3><i class="icon-user">Tomasz Banach</i></h3></a>
                     <div class="txt-height"><p>Specjalista do spraw żywieniowych </p></div>
-
-                    <p class="team-icon"><a href="https://www.facebook.com/" target="_blank"><i
-                            class="fa fa-facebook-official team-icon" aria-hidden="true"></i></a>
-                        <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square team-icon"
-                                                                              aria-hidden="true"></i></a>
+                    <p class="team-icon"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official team-icon" aria-hidden="true"></i></a>
+                        <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square team-icon" aria-hidden="true"></i></a>
                     </p>
-                    </p>
-
                 </div>
             </div>
 
 
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <div class="content">
-                    <a href="https://pl.linkedin.com" target="_blank" alt=" Wojciech Pyda"><img src="img/34035003.jpeg"
-                                                                                                alt="Wojciech Pyda"></a>
-                    <a href="https://www.facebook.com" target="_blank" alt=" Wojciech Pyda"><h3><i class="icon-user">Wojciech
-                        Pyda</i></h3></a>
+                    <div class="team-underimage"></div>
+                    <a href="https://pl.linkedin.com" target="_blank"><img src="img/34035003.jpeg" alt="Wojciech Pyda"></a>
+                    <a href="https://www.facebook.com" target="_blank"><h3><i class="icon-user">Wojciech Pyda</i></h3></a>
                     <div class="txt-height"><p>Specjalista do spraw długowieczności </p></div>
-
-                    <p class="team-icon"><a href="https://www.facebook.com/" target="_blank"><i
-                            class="fa fa-facebook-official team-icon" aria-hidden="true"></i></a>
-                        <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square team-icon"
-                                                                              aria-hidden="true"></i></a>
+                    <p class="team-icon"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official team-icon" aria-hidden="true"></i></a>
+                        <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square team-icon" aria-hidden="true"></i></a>
                     </p>
-                    </p>
-
-
                 </div>
             </div>
 
 
             <div class="col-xs-12 col-md-6 col-lg-3">
                 <div class="content">
-                    <a href="https://pl.linkedin.com" target="_blank" alt=" Waldemar Fryc"> <img
-                            class="img-responsive center-block"
-                            src="img/wafr.jpg" alt="Waldemar"></a>
-                    <a href="https://www.facebook.com" target="_blank" alt=" Waldemar Fryc"><h3><i class="icon-user">Waldemar
-                        Fryc</i></h3></a>
+                    <div class="team-underimage"></div>
+                    <a href="https://pl.linkedin.com" target="_blank"> <img class="img-responsive center-block" src="img/wafr.jpg" alt="Waldemar"></a>
+                    <a href="https://www.facebook.com" target="_blank"><h3><i class="icon-user">Waldemar Fryc</i></h3></a>
                     <div class="txt-height"><p>Specjalista do spraw kolorystycznego układania potraw </p></div>
-                    <p class="team-icon"><a href="https://www.facebook.com/" target="_blank"><i
-                            class="fa fa-facebook-official team-icon" aria-hidden="true"></i></a>
-                        <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square team-icon"
-                                                                              aria-hidden="true"></i></a>
+                    <p class="team-icon"><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-official team-icon" aria-hidden="true"></i></a>
+                        <a href="https://pl.linkedin.com/" target="_blank"><i class="fa fa-linkedin-square team-icon" aria-hidden="true"></i></a>
                     </p>
-                    </p>
-
-
                 </div>
             </div>
+
+
         </div> <!-- end row -->
     </div>
 
@@ -417,13 +395,16 @@
 
 </footer>
 
+<div id="backToTop"><a href="#"><span class="fa fa-chevron-up"></span></a></div>
 <!--- JS --->
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/nav.js"></script>
-
+<script src="js/features.js"></script>
+<script src="js/js-tomek.js"></script>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

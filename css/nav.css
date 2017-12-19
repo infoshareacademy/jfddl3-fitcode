@@ -94,7 +94,7 @@ nav {
 }
 
 a.nav-nav {
-    color: rgba(255,255,255,0.4);
+
     font-size: 1.2em;
     text-decoration: none;
     width: 100%;
@@ -103,8 +103,13 @@ a.nav-nav {
     transition: all 0.4s ease-in-out;
 }
 
-a.nav-nav:hover {
+a.nav-nav:hover,
+.active {
     color: #6BD83A;
+}
+
+a.nav-nav-color {
+    color: rgba(255,255,255,0.4);
 }
 
 @media screen and (min-width: 865px) {
