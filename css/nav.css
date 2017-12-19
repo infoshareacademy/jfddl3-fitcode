@@ -104,6 +104,8 @@ a.nav-nav {
 }
 
 a.nav-nav:hover,
+a.nav-nav:active,
+a.nav-nav:focus,
 .active {
     color: #6BD83A;
 }
