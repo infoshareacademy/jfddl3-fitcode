@@ -6,10 +6,17 @@
     text-align: center;
 }
 
+
 .fc-features-box > .fc-features-icon {
     font-size: 4.5em;
     color: #6BD83A;
     padding: 0 0 20px 0;
+    transition: all 0.3s ease-in-out
+}
+
+.fc-features-box:hover > .fc-features-icon {
+    /*color: #d0dde0;*/
+    transform: scale(1.2);
 }
 
 .fc-features-box > h5 {
@@ -103,4 +110,49 @@ section {
        height: 40px;
        width: 40px;
    }
+}
+
+/*----------- Team Animated images -------------------*/
+
+.team-section1 .middle-side .content{
+    position:relative;
+}
+.team-section1 .middle-side .content img{
+    position:relative;
+    z-index: 10;
+}
+
+
+
+.team-section1 .team-underimage{
+    height: 238px;
+    width: 238px;
+    border-radius: 200px;
+    background: #fcfcfc;
+    position:absolute;
+    z-index: 9;
+    left:50%;
+    transform: translate(-50%,-4px);
+}
+
+
+@keyframes teamanimate {
+    0% {
+        opacity:0;
+        transform: rotate(180deg) scale(0.5) translate(0px);
+    }
+    100% {
+        opacity:1;
+        transform: rotate(360deg) scale(1) translate(0px);
+    }
+}
+
+.team-anime img{
+    animation-name: teamanimate;
+    animation-duration: 0.5s; /* or: Xms */
+    animation-iteration-count: 1;
+    animation-direction: normal; /* or: normal */
+    animation-timing-function: linear; /* or: ease, ease-in, ease-in-out, linear, cubic-bezier(x1, y1, x2, y2) */
+    animation-fill-mode: forwards; /* or: backwards, both, none */
+    animation-delay: 0s; /* or: Xms */
 }
