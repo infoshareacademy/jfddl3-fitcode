@@ -32,8 +32,12 @@
     margin-top: 10px;
 }
 
-.frame * {
+.frame input {
     margin-bottom: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    padding: 0 15px;
 }
 
 .newsletter-radio {
