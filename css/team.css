@@ -1,88 +1,136 @@
-.team-section1 img
-{
-    height:230px;
+.carousel-caption {
+    right: 0;
+    top:50%;
+    left:50%;
+    padding-top:0;
+    padding-bottom: 0;
+    transform: translate(-50%, -50%);
+}
+
+.main-txt {
+    text-align: center;
+    font-family: 'Lora', serif;
+
+}
+.main-txt h1 {
+    font-size: 5em;
+
+}
+
+
+
+.przycisk {
+    text-decoration: none;
+    border-radius: 20px;
+    height: 4em;
+
+}
+
+
+@media(max-width: 1500px) {
+    .main-txt h1 {
+        font-size: 5em;
+    }
+}
+@media(max-width: 1220px){
+    .main-txt h1 {
+        font-size: 4em;
+    }
+}
+@media(max-width: 1033px){
+    .main-txt h1 {
+        font-size: 3em;
+    }
+}
+
+@media(max-width: 900px){
+    .main-txt h1 {
+        font-size: 2.5em;
+
+    }
+}
+@media(max-width: 779px) {
+    .main-txt h1 {
+        font-size: 2.5em ;
+    }
+
+}
+
+@media(max-width: 664px) {
+
+    .main-txt h1 {
+        font-size: 2em;
+
+
+    }
+
+    /*.carousel{*/
+        /*top: 5.6em;*/
+    /*}*/
+    nav {
+        background: rgba(0, 0, 0, 1)
+    }
+
+}
+@media(max-width: 400px){
+    /*.carousel-caption{*/
+        /*top: 30vw;*/
+    /*}*/
+    .main-txt h1 {
+        font-size: 0;
+
+
+    }
+    nav {
+        background: rgba(0, 0, 0, 1)
+    }
+
+
+}
+
+
+
+.team-section1 img {
+    height: 230px;
     width: auto;
     border-radius: 200px;
 }
 
 
-.baner {
-    background: url(../img/Photo.jpeg) no-repeat;
-    text-align: center;
-    font-size: 4vw;
-    height: auto;
-    padding: 80px;
-    color: #ffffff;
-    font-family: 'Lora', serif;
-    background-size: cover;
-    height: auto;
-}
-
-
-
-a.button
-{
-    text-decoration: none;
-    padding: 20px;
-    border-radius:20px;
-    border-bottom: solid darkgreen;
-    color:#ffffff;
-    width: 200px;
-    background: #64B435;
-}
-
-a.button:hover
-{
-    color:black;
-}
-
-.baner h2
-{
-
-}
-.team-section1
-{
+.team-section1 {
     background-color: #ECF3F5;
 
 }
-.team-section1 a
-{
+
+.team-section1 a {
     text-decoration: none;
     color: black;
 
 }
-.zdrowy
-{
-    color:green;
-}
-.fit
-{
-    color:yellow;
-}
-.fitcode
-{
-    color:blue;
-}
-.baner h3 {
 
-}
-.icon-user
-{
-    color:#6BD83A;
+.icon-user {
+    color: #6BD83A;
 }
 
+.about_us {
+    text-align: center;
+}
 
-.about_us
+.glyphicon-thumbs-up {
+    color: green;
+    font-size: 60px;
+    text-align: center;
+}
+
+.middle-side
 {
     text-align: center;
 }
- .glyphicon-thumbs-up
- {
-     color:green;
-     font-size: 60px;
-     text-align:center;
- }
- .container-fluid{
-     padding-left: 0;
-     padding-right: 0;
- }
+.txt-height{
+    min-height: 3em;
+    max-height: 3em;
+}
+.team-icon{
+    color:green;
+    font-size: 40px;
+}
