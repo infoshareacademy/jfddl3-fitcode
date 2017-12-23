@@ -1,19 +1,25 @@
-function Brick(positionX, positionY, type) {
+function Brick(positionX, positionY, type, isGood) {
     this.brickHandler = '';
     this.x = positionX;
     this.y = positionY;
     this.width = 5;
     this.height = 5;
     this.type = type; //dodawanie klasy, zeby okreslic typ
-    this.move = type;
+    this.isGood = isGood;
+    this.score = this.type * 5;
+    this.step = env.speed * this.type;
     this.init = function () {
+        if (this.x >= env.maxPosX) {this.x = env.maxPosX - this.width}
         this.brickHandler = $('<div class="brick brick-type-'+this.type+'" style="left: ' + this.x + '%;"></div>');
         $('.game-board').append(this.brickHandler);
     }
     this.moveDown = function () {
-        if ((this.y + this.move) <= env.maxPosY) {
-            this.y = this.y + this.move;
+        if ((this.y + this.step) <= env.maxPosY) {
+            this.y = this.y + this.step;
             $(this.brickHandler).css('top', this.y + '%');
+        }
+        else {
+           this.removeBrick();
         }
     }
     this.removeBrick = function () {
