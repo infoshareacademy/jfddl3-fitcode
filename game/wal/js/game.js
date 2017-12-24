@@ -8,14 +8,23 @@ var env = {
     score : 0,
     speed : 0.2,
     creationDelay: 2000,
+    levelEndScore: 1000,
     calcProc : function (x) {
-    return Math.floor(x * 100 / env.viewPortWpx)
+        return Math.floor(x * 100 / env.viewPortWpx)
+    },
+    getRandom : function (min, max) {
+        return Math.floor(Math.random() * (max - min)) + min;
+    },
+    initLevelEnd : function () {
+    document.querySelector('.game-board').innerHTML = '<div class="page-level-ok"><span>LEVEL UP!</span></div>';
+    }
 }
-}
+
+$('.game-board').append('<div id="scorebar"></div>'); //-----wld_TEMP
 
 
 
-/*-----------------------------Inicjujemy Koszyk--------------------------------*/
+/*-----------------------------Inicjujemy Basket--------------------------------*/
 //tworzymy i inicjujemy koszyk
 var basket = new Basket();
 basket.init();
@@ -35,43 +44,51 @@ $('.game-board').mousemove(function (e) {
 });
 
 
-
-
-/*-----------------------------Inicjujemy Brick--------------------------------*/
-// var brick = new Brick(Math.round(Math.random() * 100),0,Math.round(Math.random() * 10));
-// brick.init()
-// setInterval(function () {
-//     brick.moveDown();
-//     console.log(brick.y)
-//     if(brick.y > env.maxPosY){brick.removeBrick(); delete brick;}
-// }, 50)
-
-
-$('.game-board').append('<div id="scorebar"></div>');
+/*-----------------------------Inicjujemy Bricks--------------------------------*/
 var bricks=[];
+//Interval tworzacy Bricks
 var intervalBrick = setInterval(function () {
-    var brick = new Brick(Math.round(Math.random() * 100), 0, Math.round(Math.random() * 10), Math.round(Math.random() * 2));
+    var brick = new Brick(env.getRandom(0,100), 0, env.getRandom(1,10), env.getRandom(1,2));
     brick.init();
     bricks.push(brick);
 }, env.creationDelay);
 
 
-
+/*-----------------------------Interval Gry--------------------------------*/
 var intervalCheck = setInterval(function () {
+    //sprawdzanie czy Brick zostal zlapany w Basket
     bricks.forEach(function (element) {
         element.moveDown();
         if(element.checkCollision(basket)){
-            env.score += element.score;
+            if(element.type <= 5) {env.score += element.score} else {env.score -= element.score}
             $('#scorebar').text(env.score);
             element.removeBrick();
+            //delete element;
         }else{
-           // console.log('out')
+           //console.log('out')
         }
     });
-    // if(brick.y > env.maxPosY){brick.removeBrick()}
+    //Jesli osiagnelismy wymagana liczbe punktow Gra zatrzymuje intervals i LEVEL UP!
+    if (env.score >= env.levelEndScore){
+        clearInterval(intervalCheck);
+        clearInterval(intervalBrick);
+        bricks = [];
+        env.initLevelEnd();
+    }
 }, 50)
 
-setTimeout(function () {
-    clearInterval(intervalCheck);
-    clearInterval(intervalBrick);
-}, 30000)
+
+/*-----------------------------Testowe Zatrzymywanie Gry--------------------------------*/
+// setTimeout(function () {
+//     clearInterval(intervalCheck);
+//     clearInterval(intervalBrick);
+// }, 10000)
+
+
+/*
+tudu  ----->
+1. bricks wychodza za maxX
+2. delete brick Objects
+3. cos nie tak z basket, jesli nie uruchomimy gry z mysza nad game-board
+4. bardziej inteligenetne trzorzenie bricks*
+*/

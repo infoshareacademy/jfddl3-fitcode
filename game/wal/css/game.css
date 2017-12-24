@@ -26,22 +26,6 @@ body {
     transform: translateX(-50%);
 }
 
-/*body {
-    background: #ddd;
-    font-size: 0.9em;
-    color: #fff;
-}
-
-.viewport {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    height: 100%;
-    width: 60%;
-    overflow: hidden;
-    transform: translate(-50%, 0);
-    background: #fff;
-}*/
 
 .axis {
     position: absolute;
@@ -58,7 +42,7 @@ body {
     top: 0%;
     left: 50%;
     width: 2px;
-    background: gray;
+    background: silver;
     height: 100%;
     margin-left: -1px;
 }
@@ -68,7 +52,7 @@ body {
     top: 90%;
     left: 0;
     height: 2px;
-    background: gray;
+    background: silver;
     width: 100%;
     margin-top: -1px;
 }
@@ -89,7 +73,7 @@ body {
     height: 5%;
     width: 20%;
     z-index: 36;
-    background: #444;
+    background: silver;
     color: #fff;
     transition: all 10ms linear;
 }
@@ -101,58 +85,92 @@ body {
     height: 5%;
     width: 5%;
     z-index: 35;
-    background: gray;
+    background: silver;
     color: #fff;
     transition: all 50ms ease-in-out;
 }
 
-.brick.brick-type-0{
-    background:chartreuse;
-}
+
 .brick.brick-type-1{
-    background:green;
+    background:#007F05;
 }
 .brick.brick-type-2{
-    background:red;
+    background:#4CFF53;
 }
 .brick.brick-type-3{
-    background:blue;
+    background:#00FF0A;
 }
 .brick.brick-type-4{
-    background:orange;
+    background:#267F2A;
 }
 .brick.brick-type-5{
-    background:hotpink;
+    background:#0184bb; /* pizza */
 }
 .brick.brick-type-6{
-    background:darkblue;
+    background:#FF4C87;
 }
 .brick.brick-type-7{
-    background:peru;
+    background:#FF0053;
 }
 .brick.brick-type-8{
-    background:rebeccapurple;
+    background:#7F2643;
 }
 .brick.brick-type-9{
-    background:sienna;
+    background:#7F002A;
 }
-
 
 #scorebar{
     position:fixed;
     top:0;
     left:0;
-    height:3%;
+    height:2%;
     width:100%;
-    background: orangered;
+    background: silver;
     color:#fff;
     text-align:right;
+}
+
+.page-level-ok{
+    position: absolute;
+    width:100%;
+    height:100%;
+    background: silver;
+    font-size: 10em;
+    text-align: center;
+    z-index: 100;
+}
+.page-level-ok span{
+    display: inline-block;
+    position: absolute;
+    z-index: 101;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
 }
 
 
 
 
-/* ============================================================================= */
+
+/* =================================TRASH============================================ */
+
+/*body {
+    background: #ddd;
+    font-size: 0.9em;
+    color: #fff;
+}
+
+.viewport {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 60%;
+    overflow: hidden;
+    transform: translate(-50%, 0);
+    background: #fff;
+}*/
+
 
 /*.bullet {
     position: absolute;

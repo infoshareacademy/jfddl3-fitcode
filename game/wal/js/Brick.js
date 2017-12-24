@@ -6,12 +6,13 @@ function Brick(positionX, positionY, type, isGood) {
     this.height = 5;
     this.type = type; //dodawanie klasy, zeby okreslic typ
     this.isGood = isGood;
-    this.score = this.type * 5;
+    this.score = this.type * 10;
     this.step = env.speed * this.type;
     this.init = function () {
         if (this.x >= env.maxPosX) {this.x = env.maxPosX - this.width}
         this.brickHandler = $('<div class="brick brick-type-'+this.type+'" style="left: ' + this.x + '%;"></div>');
         $('.game-board').append(this.brickHandler);
+        $(this.brickHandler).html('b-'+this.type); //-----------wld_test
     }
     this.moveDown = function () {
         if ((this.y + this.step) <= env.maxPosY) {
@@ -24,7 +25,7 @@ function Brick(positionX, positionY, type, isGood) {
     }
     this.removeBrick = function () {
         $(this.brickHandler).remove();
-        this.x = -10000; // tymczasowe wywalanie za ekran
+        this.x = -10000; // tymczasowe wywalanie Objektow za ekran
         this.y = -10000;
     }
     this.doRemoveBrick = function () {
