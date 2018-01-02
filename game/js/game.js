@@ -20,6 +20,7 @@ var env = {
     }
 }
 
+
 $('.game-board').append('<div id="scorebar"></div>'); //-----wld_TEMP
 
 
@@ -86,9 +87,7 @@ var intervalCheck = setInterval(function () {
 
 
 /*
-tudu  ----->
-1. bricks wychodza za maxX
+tudu  -----> ta
 2. delete brick Objects
-3. cos nie tak z basket, jesli nie uruchomimy gry z mysza nad game-board
-4. bardziej inteligenetne trzorzenie bricks*
+3. cos niek z basket, jesli nie uruchomimy gry z mysza nad game-board
 */

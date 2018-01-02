@@ -1,5 +1,5 @@
 /*
-Moja wizja gry
+wizja gry ver 0.5
 ---------------
 
 Gra polega na lapaniu spadajacych itemow (klasa Brick) do koszyka (klasa Basket) poruszanego myszka.
@@ -28,6 +28,6 @@ Kolizje sprawdzamy tylko dla obiektu Basket, czyli tylko po zetknieciu itema z k
 Nie sprawdzamy kolizji itemow z "ziemia", wiec upadek itema (czy to dobrego, czy zlego) na "ziemie" nie ma dla nas znaczenia.
 Nie mamy tez okreslonej ilosci zyc, bo nie jest ona potrzebna w takim scenariuszu.
 
-Proste, przyjemne, therefore wykonalne ;)
+przyjemne,  wykonalne ;)
 
 */
