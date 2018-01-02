@@ -1,91 +1,70 @@
-.carousel-caption {
-    right: 0;
-    top:50%;
-    left:50%;
-    padding-top:0;
-    padding-bottom: 0;
-    transform: translate(-50%, -50%);
+.slideshow-full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-.main-txt {
-    text-align: center;
+.carousel-caption{
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: none;
+}
+.carousel-caption h1{
+    font-size: 4.8em;
+    min-height: 150px;
+    overflow:hidden;
+    color:#fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
     font-family: 'Lora', serif;
-
-}
-.main-txt h1 {
-    font-size: 5em;
-
 }
 
-
-
-.przycisk {
-    text-decoration: none;
-    border-radius: 20px;
-    height: 4em;
-
+.carousel-caption button{
+    /* your custom styles for button*/
 }
 
-
-@media(max-width: 1500px) {
-    .main-txt h1 {
-        font-size: 5em;
+@media (max-width: 638px) {
+    .carousel-caption h1{
+        font-size: 3.8em;
+        min-height: 130px;
     }
 }
-@media(max-width: 1220px){
-    .main-txt h1 {
-        font-size: 4em;
-    }
-}
-@media(max-width: 1033px){
-    .main-txt h1 {
-        font-size: 3em;
+@media (max-width: 478px) {
+    .carousel-caption h1{
+        font-size: 2.8em;
+        min-height: 100px;
     }
 }
 
-@media(max-width: 900px){
-    .main-txt h1 {
-        font-size: 2.5em;
-
-    }
+/* Animated scroll-down icon, to help users understanding there's some content below ;) */
+.scroll-down-link{
+    position: absolute;
+    bottom:10px;
+    left:50%;
+    width:40px;
+    margin-left:-20px;
+    font-size: 4rem;
+    z-index: 100;
+    animation: jump 1.5s ease-in-out 0s infinite normal;
 }
-@media(max-width: 779px) {
-    .main-txt h1 {
-        font-size: 2.5em ;
-    }
-
+.scroll-down-link a{
+    opacity: 0.6;
+    transition: opacity 0.5s ease-in-out;
+    color: #6BD83A;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
 }
-
-@media(max-width: 664px) {
-
-    .main-txt h1 {
-        font-size: 2em;
-
-
-    }
-
-    /*.carousel{*/
-        /*top: 5.6em;*/
-    /*}*/
-    nav {
-        background: rgba(0, 0, 0, 1)
-    }
-
+.scroll-down-link a:hover{
+    opacity: 1;
 }
-@media(max-width: 400px){
-    /*.carousel-caption{*/
-        /*top: 30vw;*/
-    /*}*/
-    .main-txt h1 {
-        font-size: 0;
-
-
+@keyframes jump {
+    0%{
+        transform: translateY(0);
     }
-    nav {
-        background: rgba(0, 0, 0, 1)
+    50%{
+        transform: translateY(-10px);
     }
-
-
+    100%{
+        transform: translateY(0);
+    }
 }
 
 
