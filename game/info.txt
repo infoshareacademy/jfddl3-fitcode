@@ -30,4 +30,8 @@ Nie mamy tez okreslonej ilosci zyc, bo nie jest ona potrzebna w takim scenariusz
 
 przyjemne,  wykonalne ;)
 
+Tomek - Brick.js
+Natalia - Basket.js
+Waldek & Wojtek - game.js
+
 */
