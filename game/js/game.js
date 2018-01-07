@@ -59,6 +59,7 @@ var env = {
             env.levelEndHealth = 200;
             env.levelDeadHealth = -100;
             env.health = 0;
+            $('.game-board').css('background-image','url("img/bg1.jpg")');
         }
         if (level === 1) {
             env.level = 2;
@@ -67,6 +68,7 @@ var env = {
             env.levelEndHealth = 400;
             env.levelDeadHealth = -100;
             env.health = 0;
+            $('.game-board').css('background-image','url("img/bg2.jpg")');
         }
         if (level === 2) {
             env.level = 3;
@@ -75,6 +77,7 @@ var env = {
             env.levelEndHealth = 600;
             env.levelDeadHealth = -100;
             env.health = 0;
+            $('.game-board').css('background-image','url("img/bg3.jpg")');
         }
         if (level === 3) { //bonus round, no chance to survive
             env.level = 10;
@@ -83,6 +86,7 @@ var env = {
             env.levelEndHealth = 10000;
             env.levelDeadHealth = -100;
             env.health = 0;
+            $('.game-board').css('background-image','url("img/bg10.png")');
         }
 
         env.scoreBar.updateScoreBar(env.level, env.health, env.score);
