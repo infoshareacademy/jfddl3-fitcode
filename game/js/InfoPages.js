@@ -19,7 +19,7 @@ function InfoPages() {
         '<button onclick="$(\'.page-level-ok\').remove(); env.resetGame();">Reset Game</button></div>');
     this.pageGameOver = $('<div class="page-level-ok"><span>GAME OVER</span>' +
         '<button onclick="$(\'.page-level-ok\').remove(); env.resetGame();">Reset Game</button></div>');
-    this.pageGameOverBonus = $('<div class="page-level-ok"><span>Awsome ;)</span>' +
+    this.pageGameOverBonus = $('<div class="page-level-ok"><span>AWESOME ;)</span>' +
         '<button onclick="$(\'.page-level-ok\').remove(); env.infoPages.setPageHiScoresSubmit();">Submit Scores</button>' +
         '<button onclick="$(\'.page-level-ok\').remove(); env.resetGame();">Reset Game</button></div>');
 }
