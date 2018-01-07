@@ -22,7 +22,7 @@ Brick.prototype.init = function () {
     }
 }
 Brick.prototype.moveDown = function () {
-    if ((this.y + this.step) <= env.maxPosY - this.height + 2) {
+    if ((this.y + this.step) <= env.maxPosY - this.height + 1) {
         this.y = this.y + this.step;
         $(this.brickHandler).css('top', this.y + '%');
     }
