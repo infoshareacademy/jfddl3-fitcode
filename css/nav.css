@@ -11,8 +11,10 @@ nav {
 }
 
 .logo img {
-    width: 100%;
+    width: 90%;
+    height: auto;
     margin-left: 5em;
+    margin-top: 7px;
 }
 
 .navigation {
@@ -32,7 +34,6 @@ nav {
         right: 5em;
     }
 }
-
 
 .navigation ul {
     padding: 0;
@@ -111,7 +112,7 @@ a.nav-nav:focus,
 }
 
 a.nav-nav-color {
-    color: rgba(255,255,255,0.4);
+    color: rgba(255, 255, 255, 0.4);
 }
 
 @media screen and (min-width: 865px) {
@@ -151,19 +152,19 @@ a.nav-nav-color {
     height: 6px;
     background: #ffffff;
     border-radius: 3px;
-    margin:6px 0;
+    margin: 6px 0;
     display: block;
     transition: 0.3s;
 }
 
-.transform .bar1{
+.transform .bar1 {
     transform: rotate(45deg) translate(8px, 6px);
 }
 
-.transform .bar2{
+.transform .bar2 {
     opacity: 0;
 }
 
-.transform .bar3{
+.transform .bar3 {
     transform: rotate(-45deg) translate(10px, -10px);
 }
