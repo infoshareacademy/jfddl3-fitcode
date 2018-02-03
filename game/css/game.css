@@ -113,7 +113,7 @@ body {
     background:url('../img/t9.svg') top left no-repeat;
     background-size: contain;
 }
-.brick .brick-health-good{ 
+.brick .brick-health-good{
     background: green;
     color:#fff;
     font-size:0.8em;
@@ -121,7 +121,7 @@ body {
     padding: 1px;
     border-radius: 2px;
 }
-.brick .brick-health-bad{ 
+.brick .brick-health-bad{
     background: red;
     color:#fff;
     font-size:0.8em;
@@ -309,7 +309,7 @@ input[type="text"]
 }
 
 
-/*--- Loading page ---*/
+
 .no-js #loader { display: none;  }
 .js #loader { display: block; position: absolute; left: 100px; top: 0; }
 .se-pre-con {
@@ -323,29 +323,7 @@ input[type="text"]
 }
 
 
-/* =================================TEST ELEMENTS======================================= */
 
-
-/*.axis {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    z-index: 15;
-    opacity: 0.5;
-}
-
-.axis-y {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    width: 2px;
-    background: silver;
-    height: 100%;
-    margin-left: -1px;
-    display: none;
-}
 
 .axis-x {
     position: absolute;
@@ -356,32 +334,4 @@ input[type="text"]
     width: 100%;
     margin-top: -1px;
     display:none;
-}*/
-
-/* .brick.brick-type-1{
-    background:#007F05;
 }
-.brick.brick-type-2{
-    background:#4CFF53;
-}
-.brick.brick-type-3{
-    background:#00FF0A;
-}
-.brick.brick-type-4{
-    background:#267F2A;
-}
-.brick.brick-type-5{
-    background:#0184bb;
-}
-.brick.brick-type-6{
-    background:#FF4C87;
-}
-.brick.brick-type-7{
-    background:#FF0053;
-}
-.brick.brick-type-8{
-    background:#7F2643;
-}
-.brick.brick-type-9{
-    background:#7F002A;
-} */
